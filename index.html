@@ -163,12 +163,15 @@
       <h2 data-reveal>Escolha seu próximo <em>favorito</em></h2>
     </div>
 
-    <div class="menu-tabs" role="tablist" aria-label="Categorias do cardápio" data-reveal>
-      <button class="menu-tab is-active" role="tab" aria-selected="true" data-cat="lanches-individuais">Lanches Individuais</button>
-      <button class="menu-tab" role="tab" aria-selected="false" data-cat="lanches-especiais">Lanches Especiais</button>
-      <button class="menu-tab" role="tab" aria-selected="false" data-cat="batatas">Batatas &amp; Porções</button>
-      <button class="menu-tab" role="tab" aria-selected="false" data-cat="pizzas-crepes">Mini Pizzas &amp; Crepes</button>
-      <button class="menu-tab" role="tab" aria-selected="false" data-cat="bebidas">Bebidas &amp; Sobremesa</button>
+    <div class="menu-tabs-wrap">
+      <div class="menu-tabs" role="tablist" aria-label="Categorias do cardápio" data-reveal>
+        <button class="menu-tab is-active" role="tab" aria-selected="true" data-cat="lanches-individuais">Lanches Individuais</button>
+        <button class="menu-tab" role="tab" aria-selected="false" data-cat="lanches-especiais">Lanches Especiais</button>
+        <button class="menu-tab" role="tab" aria-selected="false" data-cat="batatas">Batatas &amp; Porções</button>
+        <button class="menu-tab" role="tab" aria-selected="false" data-cat="pizzas-crepes">Mini Pizzas &amp; Crepes</button>
+        <button class="menu-tab" role="tab" aria-selected="false" data-cat="bebidas">Bebidas &amp; Sobremesa</button>
+        <button class="menu-tab" role="tab" aria-selected="false" data-cat="combos">Combos</button>
+      </div>
     </div>
 
     <div class="menu-panels">
@@ -271,7 +274,7 @@
       <div class="menu-panel" data-panel="batatas">
         <div class="menu-grid">
         <article class="menu-card">
-          <div class="menu-card-img"><img src="assets/menu/batata-simples.png" alt="Batata Simples" loading="lazy"></div>
+          <div class="menu-card-img"><img src="assets/menu/batata-simples.jpg" alt="Batata Simples" loading="lazy"></div>
           <div class="menu-card-body">
             <div class="menu-card-top"><h3>Batata Simples</h3><span class="price">R$ 10,00</span></div>
             <p>Ketchup, mostarda e maionese.</p>
@@ -433,6 +436,47 @@
             <li><span>Soda Italiana</span><b>R$ 10–12</b></li>
             <li><span>Energético (Red Bull, Monster)</span><b>R$ 11–12</b></li>
           </ul>
+        </div>
+      </div>
+
+      <div class="menu-panel" data-panel="combos">
+        <div class="menu-grid">
+        <article class="menu-card">
+          <div class="menu-card-img"><img src="assets/menu/combo-junior.jpg" alt="Combo Vik Junior" loading="lazy"></div>
+          <div class="menu-card-body">
+            <div class="menu-card-top"><h3>Combo Vik Junior</h3><span class="price">R$ 45,00</span></div>
+            <p>Pão brioche macio, hambúrguer artesanal 100g, mussarela derretida, alface, tomate e molhos especiais + refrigerante 350ml.</p>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-img"><img src="assets/menu/combo-duplo.jpg" alt="Combo Duplo Cheddar" loading="lazy"></div>
+          <div class="menu-card-body">
+            <div class="menu-card-top"><h3>Combo Duplo Cheddar</h3><span class="price">R$ 56,00</span></div>
+            <p>2 hambúrgueres artesanais 100g, queijo mussarela, picles e pão brioche + refrigerante 350ml.</p>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-img"><img src="assets/menu/combo-classico.jpg" alt="Combo Vik Clássico" loading="lazy"></div>
+          <div class="menu-card-body">
+            <div class="menu-card-top"><h3>Combo Vik Clássico</h3><span class="price">R$ 55,00</span></div>
+            <p>Escolha seu hambúrguer artesanal entre as versões Onion, Doritos e outras + refrigerante.</p>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-img"><img src="assets/menu/vik-duplo.jpg" alt="Combo Vik s2 Casal" loading="lazy"></div>
+          <div class="menu-card-body">
+            <div class="menu-card-top"><h3>Combo Vik s2 Casal</h3><span class="price">R$ 90,00</span></div>
+            <p>Para os dois curtirem sem brigas: 2 Vik Bacon no pão de gergelim + 2 refrigerantes 350ml. Serve 2 pessoas.</p>
+          </div>
+        </article>
+        <article class="menu-card menu-card-feature">
+          <span class="badge">Pra compartilhar</span>
+          <div class="menu-card-img"><img src="assets/menu/combo-familia.jpg" alt="Combo Vik Família" loading="lazy"></div>
+          <div class="menu-card-body">
+            <div class="menu-card-top"><h3>Combo Vik Família</h3><span class="price">R$ 172,00</span></div>
+            <p>4 hambúrgueres artesanais 100g, queijo mussarela e cheddar, pão brioche + refrigerante 2L. Serve a galera toda.</p>
+          </div>
+        </article>
         </div>
       </div>
 

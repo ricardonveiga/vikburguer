@@ -64,6 +64,26 @@
   });
   navMobile.querySelectorAll('a').forEach(function (a) { a.addEventListener('click', closeMobileNav); });
 
+  /* ---------------- menu tabs overflow hint (mobile) ---------------- */
+  var menuTabsEl = document.querySelector('.menu-tabs');
+  if (menuTabsEl && !reduceMotion) {
+    var nudged = false;
+    var maybeNudge = function () {
+      if (nudged || menuTabsEl.scrollWidth <= menuTabsEl.clientWidth + 4) return;
+      nudged = true;
+      menuTabsEl.scrollTo({ left: 56, behavior: 'smooth' });
+      setTimeout(function () { menuTabsEl.scrollTo({ left: 0, behavior: 'smooth' }); }, 650);
+    };
+    if (window.IntersectionObserver) {
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) { if (e.isIntersecting) { setTimeout(maybeNudge, 500); io.disconnect(); } });
+      }, { threshold: 0.4 });
+      io.observe(menuTabsEl);
+    } else {
+      setTimeout(maybeNudge, 1500);
+    }
+  }
+
   /* ---------------- menu tabs ---------------- */
   var tabs = document.querySelectorAll('.menu-tab');
   var panels = document.querySelectorAll('.menu-panel');

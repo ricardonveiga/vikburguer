@@ -383,12 +383,12 @@ button { font: inherit; cursor: pointer; }
    MENU
    ============================================================ */
 .menu-section { max-width: var(--container); margin: 130px auto 100px; padding: 0 24px; }
+.menu-tabs-wrap { position: relative; margin-bottom: 54px; }
 .menu-tabs {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
-  margin-bottom: 54px;
 }
 .menu-tab {
   padding: 12px 22px;
@@ -633,9 +633,17 @@ button { font: inherit; cursor: pointer; }
   .hero-actions .btn { justify-content: center; }
   .stats { gap: 28px; }
   .stat { min-width: 90px; }
-  .menu-tabs { justify-content: flex-start; overflow-x: auto; flex-wrap: nowrap; padding-bottom: 4px; -ms-overflow-style: none; scrollbar-width: none; }
+  .menu-tabs { justify-content: flex-start; overflow-x: auto; flex-wrap: nowrap; padding-bottom: 4px; padding-right: 40px; -ms-overflow-style: none; scrollbar-width: none; scroll-snap-type: x proximity; }
   .menu-tabs::-webkit-scrollbar { display: none; }
-  .menu-tab { flex-shrink: 0; }
+  .menu-tab { flex-shrink: 0; scroll-snap-align: start; }
+  .menu-tabs-wrap::after {
+    content: '';
+    position: absolute;
+    top: 0; right: 0; bottom: 4px;
+    width: 48px;
+    background: linear-gradient(90deg, transparent, var(--dark) 75%);
+    pointer-events: none;
+  }
   .whatsapp-float { right: 16px; bottom: 16px; width: 54px; height: 54px; }
   .footer-top { flex-direction: column; align-items: flex-start; }
 }
