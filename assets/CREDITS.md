@@ -13,16 +13,16 @@ Consulte o link de cada uma antes de qualquer uso comercial contínuo.
 
 | Arquivo | Fonte (Wikimedia Commons) |
 |---|---|
-| vik-kids.jpg | https://commons.wikimedia.org/wiki/File:Vegan_Pamela_-_Patty%26Bun_2025-11-16.jpg |
+| vik-kids.jpg | https://commons.wikimedia.org/wiki/File:Cheeseburger_almost_in_Paradise_(143511168).jpg |
 | vik-cheese.jpg | https://commons.wikimedia.org/wiki/File:Cheeseburger_and_steak_fries_at_Rentier-Burger.jpg |
 | vik-junior.jpg | https://commons.wikimedia.org/wiki/File:Cheeseburger_With_Lettuce,_Tomato_and_Onion_free_creative_commons_(4006382370).jpg |
 | vik-salada.jpg | https://commons.wikimedia.org/wiki/File:Crassic_Cheese_Burger,_at_Freshness_Burger_(2012.10.27).jpg |
-| vik-egg.jpg | https://commons.wikimedia.org/wiki/File:Hong_Kong-style_Burger_with_Egg_Salad_%26_French_Fries.jpg |
-| vik-calabresa.jpg | https://commons.wikimedia.org/wiki/File:Fisherman%E2%80%99s_Bistro,_Hamburger,_Finncanopus,_20240215_-_38.jpg |
-| vik-doritos.jpg | https://commons.wikimedia.org/wiki/File:Bens_chili_bowl_veggie_burger_with_chips_cc_flickr_user_angela_n.jpg |
-| vik-bacon.jpg | https://commons.wikimedia.org/wiki/File:BBQ_Bacon_Cheeseburger_at_Planet_Dailies.jpg |
+| vik-egg.jpg | https://commons.wikimedia.org/wiki/File:Food_burger_001_beef_with_fried_egg_and_bacon.jpg |
+| vik-calabresa.jpg | https://commons.wikimedia.org/wiki/File:Cali_Smash_Burger.jpg |
+| vik-doritos.jpg | https://commons.wikimedia.org/wiki/File:2019-02-07_13_45_24_Nacho_Cheese_Doritos_in_the_Franklin_Farm_section_of_Oak_Hill,_Fairfax_County,_Virginia.jpg |
+| vik-bacon.jpg | https://commons.wikimedia.org/wiki/File:Philbuster_burger_-_2.jpg |
 | vik-onion.jpg | https://commons.wikimedia.org/wiki/File:Burger_King_Onion_Rings_in_Bag_(19043880786).jpg |
-| vik-duplo.jpg | https://commons.wikimedia.org/wiki/File:Tims%C2%AE_Double_Cheeseburger_2025-06-12.jpg |
+| vik-duplo.jpg | https://commons.wikimedia.org/wiki/File:Sriracha_Double_Smash_Burger.jpg |
 | vik-costela.jpg | https://commons.wikimedia.org/wiki/File:2018-04-26_Pulled_beef_burger.jpg |
 | vik-tudo.jpg | https://commons.wikimedia.org/wiki/File:BKQuadStacker.jpg |
 | batata-simples.png | https://commons.wikimedia.org/wiki/File:Homemade_French_Fries_with_Fried_Egg.png |

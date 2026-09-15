@@ -56,11 +56,11 @@
 
 <nav class="nav-mobile" id="navMobile" aria-label="Navegação mobile">
   <div class="nav-mobile-links">
-    <a href="#sobre"><span>01</span>Sobre</a>
-    <a href="#cardapio"><span>02</span>Cardápio</a>
-    <a href="#destaques"><span>03</span>Destaques</a>
-    <a href="#localizacao"><span>04</span>Localização</a>
-    <a href="#contato"><span>05</span>Peça agora</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#cardapio">Cardápio</a>
+    <a href="#destaques">Destaques</a>
+    <a href="#localizacao">Localização</a>
+    <a href="#contato">Peça agora</a>
   </div>
   <div class="nav-mobile-footer">
     <a href="https://wa.me/5511972974843" target="_blank" rel="noopener">WhatsApp</a>
@@ -84,9 +84,13 @@
       <div class="hero-vignette"></div>
     </div>
 
+    <div class="hero-logo-mark" aria-hidden="true">
+      <img src="assets/logo.png" alt="">
+    </div>
+
     <div class="hero-content">
       <p class="hero-eyebrow" data-reveal>
-        <span class="dot"></span> Cotia · SP — 100% artesanal
+        <span class="dot"></span> 100% artesanal
       </p>
       <h1 class="hero-title">
         <span class="line" data-split>SABOR QUE</span>
@@ -149,12 +153,6 @@
           <span class="stat-suffix">+</span>
           <span class="stat-label">Itens no cardápio</span>
         </div>
-        <div class="stat">
-          <span class="stat-prefix">R$</span>
-          <span class="stat-number" data-count="40">0</span>
-          <span class="stat-suffix">–60</span>
-          <span class="stat-label">Ticket médio</span>
-        </div>
       </div>
     </div>
   </section>
@@ -175,7 +173,8 @@
 
     <div class="menu-panels">
 
-      <div class="menu-grid is-active" data-panel="lanches-individuais">
+      <div class="menu-panel is-active" data-panel="lanches-individuais">
+        <div class="menu-grid">
         <article class="menu-card">
           <div class="menu-card-img"><img src="assets/menu/vik-kids.jpg" alt="Vik Kids" loading="lazy"></div>
           <div class="menu-card-body">
@@ -225,9 +224,11 @@
             <p>Hambúrguer artesanal 140g, bacon, cheddar e prato, picles, molho verde e crocante de Doritos.</p>
           </div>
         </article>
+        </div>
       </div>
 
-      <div class="menu-grid" data-panel="lanches-especiais">
+      <div class="menu-panel" data-panel="lanches-especiais">
+        <div class="menu-grid">
         <article class="menu-card">
           <div class="menu-card-img"><img src="assets/menu/vik-bacon.jpg" alt="Vik Bacon" loading="lazy"></div>
           <div class="menu-card-body">
@@ -264,9 +265,11 @@
             <p>Hambúrguer artesanal 140g, bacon, ovo, calabresa, prato e cheddar, cebola onion, tomate e alface.</p>
           </div>
         </article>
+        </div>
       </div>
 
-      <div class="menu-grid" data-panel="batatas">
+      <div class="menu-panel" data-panel="batatas">
+        <div class="menu-grid">
         <article class="menu-card">
           <div class="menu-card-img"><img src="assets/menu/batata-simples.png" alt="Batata Simples" loading="lazy"></div>
           <div class="menu-card-body">
@@ -331,9 +334,11 @@
             <p>Porção generosa com todos os ingredientes da completa.</p>
           </div>
         </article>
+        </div>
       </div>
 
-      <div class="menu-grid" data-panel="pizzas-crepes">
+      <div class="menu-panel" data-panel="pizzas-crepes">
+        <div class="menu-grid">
         <article class="menu-card">
           <div class="menu-card-img"><img src="assets/menu/mini-pizza-salgada.jpg" alt="Mini Pizza Salgada" loading="lazy"></div>
           <div class="menu-card-body">
@@ -376,9 +381,11 @@
             <p>Recheado com Nutella.</p>
           </div>
         </article>
+        </div>
       </div>
 
-      <div class="menu-grid" data-panel="bebidas">
+      <div class="menu-panel" data-panel="bebidas">
+        <div class="menu-grid">
         <article class="menu-card">
           <div class="menu-card-img"><img src="assets/menu/bebida-lata.jpg" alt="Refrigerante Lata" loading="lazy"></div>
           <div class="menu-card-body">
@@ -415,19 +422,20 @@
             <p>Bolo de chocolate belga com sorvete de creme.</p>
           </div>
         </article>
+        </div>
+
+        <div class="menu-more" data-reveal>
+          <h4>Mais opções no balcão</h4>
+          <ul class="more-list">
+            <li><span>Água / Suco de Caixinha</span><b>R$ 3,50</b></li>
+            <li><span>Doses (51, Velho Barreiro)</span><b>R$ 4,00</b></li>
+            <li><span>Refrigerante 2L</span><b>R$ 11–15</b></li>
+            <li><span>Soda Italiana</span><b>R$ 10–12</b></li>
+            <li><span>Energético (Red Bull, Monster)</span><b>R$ 11–12</b></li>
+          </ul>
+        </div>
       </div>
 
-    </div>
-
-    <div class="menu-more" data-reveal>
-      <h4>Mais opções no balcão</h4>
-      <ul class="more-list">
-        <li><span>Água / Suco de Caixinha</span><b>R$ 3,50</b></li>
-        <li><span>Doses (51, Velho Barreiro)</span><b>R$ 4,00</b></li>
-        <li><span>Refrigerante 2L</span><b>R$ 11–15</b></li>
-        <li><span>Soda Italiana</span><b>R$ 10–12</b></li>
-        <li><span>Energético (Red Bull, Monster)</span><b>R$ 11–12</b></li>
-      </ul>
     </div>
   </section>
 
@@ -458,12 +466,34 @@
           <img src="assets/menu/vik-costela.jpg" alt="Vik Costela" loading="lazy">
           <div class="showcase-info"><h3>Vik Costela</h3><p>Costela desfiada lentamente, puro conforto.</p></div>
         </div>
+
+        <div class="showcase-slide" aria-hidden="true">
+          <img src="assets/menu/vik-tudo.jpg" alt="" loading="lazy">
+          <div class="showcase-info"><h3>Vik Tudo</h3><p>O lanche completo: bacon, ovo, calabresa e queijos.</p></div>
+        </div>
+        <div class="showcase-slide" aria-hidden="true">
+          <img src="assets/menu/vik-bacon.jpg" alt="" loading="lazy">
+          <div class="showcase-info"><h3>Vik Bacon</h3><p>Clássico defumado com queijo derretido na medida.</p></div>
+        </div>
+        <div class="showcase-slide" aria-hidden="true">
+          <img src="assets/menu/vik-onion.jpg" alt="" loading="lazy">
+          <div class="showcase-info"><h3>Vik Onion</h3><p>Crocância da cebola onion em cada mordida.</p></div>
+        </div>
+        <div class="showcase-slide" aria-hidden="true">
+          <img src="assets/menu/vik-duplo.jpg" alt="" loading="lazy">
+          <div class="showcase-info"><h3>Vik Duplo</h3><p>Duas carnes, o dobro de sabor.</p></div>
+        </div>
+        <div class="showcase-slide" aria-hidden="true">
+          <img src="assets/menu/vik-costela.jpg" alt="" loading="lazy">
+          <div class="showcase-info"><h3>Vik Costela</h3><p>Costela desfiada lentamente, puro conforto.</p></div>
+        </div>
       </div>
     </div>
   </section>
 
   <section class="rating">
     <div class="rating-inner">
+      <div class="rating-mark" data-reveal><img src="assets/logo.png" alt="Vik Burguer" width="72" height="65"></div>
       <div class="rating-stars" aria-hidden="true">★★★★★</div>
       <p class="rating-score" data-reveal>5.0 <span>de avaliação no Google</span></p>
       <a class="btn btn-outline" data-reveal href="https://www.google.com/maps/search/?api=1&query=Vik+Burguer+Cotia" target="_blank" rel="noopener">Ver avaliações no Google</a>

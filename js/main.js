@@ -66,7 +66,7 @@
 
   /* ---------------- menu tabs ---------------- */
   var tabs = document.querySelectorAll('.menu-tab');
-  var panels = document.querySelectorAll('.menu-grid');
+  var panels = document.querySelectorAll('.menu-panel');
   tabs.forEach(function (tab) {
     tab.addEventListener('click', function () {
       var cat = tab.getAttribute('data-cat');
@@ -78,7 +78,7 @@
         p.classList.toggle('is-active', match);
       });
       if (window.gsap) {
-        var active = document.querySelector('.menu-grid.is-active');
+        var active = document.querySelector('.menu-panel.is-active .menu-grid');
         gsap.fromTo(active.children, { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: .55, stagger: .05, ease: 'power2.out' });
       }
     });
@@ -146,24 +146,6 @@
         scrollTrigger: { trigger: grid, start: 'top 88%' }
       });
     });
-
-    // showcase horizontal scroll-jack
-    var track = document.querySelector('.showcase-track');
-    if (track) {
-      var setDistance = function () { return -(track.scrollWidth - window.innerWidth + 48); };
-      gsap.to(track, {
-        x: setDistance,
-        ease: 'none',
-        scrollTrigger: {
-          trigger: '.showcase',
-          start: 'top top',
-          end: function () { return '+=' + (track.scrollWidth - window.innerWidth + 48) * 1.15; },
-          scrub: 1,
-          pin: true,
-          invalidateOnRefresh: true
-        }
-      });
-    }
 
     // menu card 3D tilt on pointer move (desktop only)
     if (window.matchMedia('(hover: hover)').matches) {
