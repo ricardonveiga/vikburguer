@@ -30,12 +30,12 @@ Consulte o link de cada uma antes de qualquer uso comercial contínuo.
 | cebola-onion.jpg | https://commons.wikimedia.org/wiki/File:At_Dot%27s_Diner-_Onion_Rings.jpg |
 | batata-completa.jpg | https://commons.wikimedia.org/wiki/File:Chili_Cheese_fries_(cropped).jpg |
 | batata-recheada.jpg | https://commons.wikimedia.org/wiki/File:Potato_skins_arranged_on_a_plate_as_an_appetizer.jpg |
-| isca-frango.jpg | https://commons.wikimedia.org/wiki/File:Chicken_fingers_and_fries.jpg |
+| isca-frango.jpg | https://commons.wikimedia.org/wiki/File:Crispy_Chicken_Strips_-_FotoosVanRobin.jpg |
 | batata-familia.jpg | https://commons.wikimedia.org/wiki/File:Mozzarella_cheese_stick,_fries,_and_nachos_platter.jpg |
 | mini-pizza-salgada.jpg | https://commons.wikimedia.org/wiki/File:Pizza_Hut_Cheese_Personal_Pan_Pizza_(21146687506).jpg |
 | mini-pizza-doce.jpg | https://commons.wikimedia.org/wiki/File:Chocolate..._pizza%3F.jpg |
-| crepe-tradicional.jpg | https://commons.wikimedia.org/wiki/File:Mango_Crepe_with_Chocolate_Syrup,_Apr_2025.jpg |
-| crepe-salgado.jpg | https://commons.wikimedia.org/wiki/File:At_La_Palma_2023_417.jpg |
+| crepe-tradicional.jpg | https://commons.wikimedia.org/wiki/File:Cr%C3%AApe_Suzette.jpg |
+| crepe-salgado.jpg | https://commons.wikimedia.org/wiki/File:Ham_%26_Cheese_Galettes_4of4_(8735173771).jpg |
 | crepe-especial.jpg | https://commons.wikimedia.org/wiki/File:Cr%C3%AApes_con_la_Nutella.JPG |
 | bebida-lata.jpg | https://commons.wikimedia.org/wiki/File:Coca-cola_50cl_can_-_Italia.jpg |
 | cerveja.jpg | https://commons.wikimedia.org/wiki/File:A_Bottle_of_Sapporo_Beer.jpg |

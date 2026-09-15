@@ -318,13 +318,11 @@ button { font: inherit; cursor: pointer; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 16px; }
 
 .hero-marquee {
-  position: relative;
-  z-index: 2;
   border-top: 1px solid rgba(245,245,245,.14);
+  border-bottom: 1px solid rgba(245,245,245,.14);
   padding: 18px 0;
   overflow: hidden;
-  background: rgba(13,13,13,.35);
-  backdrop-filter: blur(4px);
+  background: var(--dark-2);
 }
 .marquee-track { display: flex; width: max-content; gap: 40px; animation: marquee 26s linear infinite; will-change: transform; }
 .marquee-track span {
@@ -384,6 +382,7 @@ button { font: inherit; cursor: pointer; }
    ============================================================ */
 .menu-section { max-width: var(--container); margin: 130px auto 100px; padding: 0 24px; }
 .menu-tabs-wrap { position: relative; margin-bottom: 54px; }
+.menu-tabs-hint { display: none; }
 .menu-tabs {
   display: flex;
   flex-wrap: wrap;
@@ -574,7 +573,14 @@ button { font: inherit; cursor: pointer; }
 .footer-brand p { margin: 0; color: var(--muted); font-size: 13px; }
 .footer-links { display: flex; gap: 26px; font-family: var(--font-display); font-weight: 600; font-size: 14px; }
 .footer-links a:hover, .footer-social a:hover { color: var(--mustard); }
-.footer-social { display: flex; gap: 22px; font-family: var(--font-display); font-weight: 600; font-size: 14px; }
+.footer-social { display: flex; gap: 18px; align-items: center; }
+.footer-social a {
+  display: flex; align-items: center; justify-content: center;
+  width: 40px; height: 40px; border-radius: 50%;
+  background: rgba(245,245,245,.08); border: 1px solid rgba(245,245,245,.14);
+  transition: color .3s, border-color .3s, transform .3s var(--ease);
+}
+.footer-social a:hover { transform: translateY(-3px); border-color: var(--mustard); }
 .footer-bottom {
   max-width: var(--container);
   margin: 0 auto;
@@ -639,13 +645,34 @@ button { font: inherit; cursor: pointer; }
   .menu-tabs-wrap::after {
     content: '';
     position: absolute;
+    z-index: 1;
     top: 0; right: 0; bottom: 4px;
     width: 48px;
     background: linear-gradient(90deg, transparent, var(--dark) 75%);
     pointer-events: none;
   }
+  .menu-tabs-hint {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
+    right: 2px;
+    top: 0;
+    bottom: 4px;
+    width: 22px;
+    color: var(--mustard);
+    pointer-events: none;
+    animation: tabsHintNudge 1.8s ease-in-out infinite;
+  }
+  @keyframes tabsHintNudge {
+    0%, 100% { transform: translateX(0); opacity: .9; }
+    50% { transform: translateX(4px); opacity: .4; }
+  }
   .whatsapp-float { right: 16px; bottom: 16px; width: 54px; height: 54px; }
-  .footer-top { flex-direction: column; align-items: flex-start; }
+  .footer-top { flex-direction: column; align-items: center; text-align: center; }
+  .footer-social { justify-content: center; width: 100%; }
+  .footer-bottom { justify-content: center; text-align: center; }
 }
 
 @media (prefers-reduced-motion: reduce) {
