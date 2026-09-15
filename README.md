@@ -35,13 +35,11 @@ assets/CREDITS.md     fonte de cada imagem/vídeo placeholder usado
    Troque por fotos e um vídeo reais da Vik Burguer assim que possível — é o que mais vai
    aumentar a conversão e evita qualquer pendência de atribuição de licença. Basta substituir o
    arquivo mantendo o mesmo nome (ex.: `assets/menu/vik-bacon.jpg`) que o site atualiza sozinho.
-2. **Link do iFood**: hoje aponta para `https://www.ifood.com.br/` (genérico). Troque pelo link
-   direto da loja da Vik Burguer no `index.html`, procure por `ifood.com.br`.
-3. **Confirme o número de WhatsApp** usado nos botões: `(11) 97297-4843` → `5511972974843`.
-4. **Confira o pino do mapa** em "Localização" — o embed usa busca por endereço; se o Google não
+2. **Confirme o número de WhatsApp** usado nos botões: `(11) 97297-4843` → `5511972974843`.
+3. **Confira o pino do mapa** em "Localização" — o embed usa busca por endereço; se o Google não
    posicionar exatamente na fachada, gere um embed mais preciso em google.com/maps (Compartilhar →
    Incorporar mapa) e troque o `src` do `<iframe>`.
-5. **Avaliação do Google**: o botão "Ver avaliações no Google" abre uma busca genérica pelo nome.
+4. **Avaliação do Google**: o botão "Ver avaliações no Google" abre uma busca genérica pelo nome.
    Se tiverem o link direto do perfil do Google Meu Negócio, substitua a URL para ir direto às
    avaliações reais.
 
