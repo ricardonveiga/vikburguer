@@ -501,7 +501,7 @@ button { font: inherit; cursor: pointer; }
   padding: 90px 24px;
   background: linear-gradient(180deg, transparent, rgba(255,193,7,.06), transparent);
 }
-.rating-mark { width: 72px; margin: 0 auto 20px; }
+.rating-mark { width: 112px; margin: 0 auto 22px; }
 .rating-mark img { width: 100%; height: auto; }
 .rating-stars { font-size: 34px; color: var(--mustard); letter-spacing: 6px; margin-bottom: 18px; }
 .rating-score { font-family: var(--font-display); font-weight: 900; font-size: clamp(2.4rem, 6vw, 4rem); margin: 0 0 30px; }
