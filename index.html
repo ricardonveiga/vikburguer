@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Vik Burguer — Especialista em Hambúrguer Artesanal | Cotia, SP</title>
+<meta name="description" content="Vik Burguer: hambúrguer artesanal, batatas, mini pizzas e crepes em Cotia-SP. Avaliação 5.0 no Google. Peça pelo WhatsApp ou iFood.">
+<meta name="theme-color" content="#0d0d0d">
+
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png">
+<link rel="apple-touch-icon" href="assets/favicon-180.png">
+
+<meta property="og:type" content="restaurant.menu">
+<meta property="og:title" content="Vik Burguer — Especialista em Hambúrguer Artesanal">
+<meta property="og:description" content="Hambúrguer artesanal, batatas, mini pizzas e crepes em Cotia-SP. Avaliação 5.0 no Google.">
+<meta property="og:image" content="assets/video/hero-poster-large.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800;900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="grain-overlay" aria-hidden="true"></div>
+
+<div id="preloader" aria-hidden="true">
+  <div class="preloader-mark">
+    <img src="assets/logo.png" alt="" width="140" height="126">
+  </div>
+  <div class="preloader-bar"><span></span></div>
+</div>
+
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a href="#home" class="brand">
+      <img src="assets/logo.png" alt="Vik Burguer" width="52" height="47">
+      <span class="brand-text">Vik Burguer</span>
+    </a>
+
+    <nav class="nav-desktop" aria-label="Navegação principal">
+      <a href="#sobre"><span>Sobre</span></a>
+      <a href="#cardapio"><span>Cardápio</span></a>
+      <a href="#destaques"><span>Destaques</span></a>
+      <a href="#localizacao"><span>Localização</span></a>
+      <a href="#contato" class="nav-cta"><span>Peça agora</span></a>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="navMobile">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<nav class="nav-mobile" id="navMobile" aria-label="Navegação mobile">
+  <div class="nav-mobile-links">
+    <a href="#sobre"><span>01</span>Sobre</a>
+    <a href="#cardapio"><span>02</span>Cardápio</a>
+    <a href="#destaques"><span>03</span>Destaques</a>
+    <a href="#localizacao"><span>04</span>Localização</a>
+    <a href="#contato"><span>05</span>Peça agora</a>
+  </div>
+  <div class="nav-mobile-footer">
+    <a href="https://wa.me/5511972974843" target="_blank" rel="noopener">WhatsApp</a>
+    <a href="https://instagram.com/vikburgguer" target="_blank" rel="noopener">Instagram</a>
+  </div>
+</nav>
+
+<main>
+
+  <section class="hero" id="home">
+    <div class="hero-media">
+      <video
+        class="hero-video"
+        autoplay muted loop playsinline
+        poster="assets/video/hero-poster-large.jpg"
+        aria-hidden="true">
+        <source src="assets/video/hero-burger-480.webm" media="(max-width: 760px)" type="video/webm">
+        <source src="assets/video/hero-burger-1080.webm" type="video/webm">
+      </video>
+      <div class="hero-scrim"></div>
+      <div class="hero-vignette"></div>
+    </div>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow" data-reveal>
+        <span class="dot"></span> Cotia · SP — 100% artesanal
+      </p>
+      <h1 class="hero-title">
+        <span class="line" data-split>SABOR QUE</span>
+        <span class="line accent" data-split>MARCA.</span>
+      </h1>
+      <p class="hero-sub" data-reveal>
+        Pão brioche, blend selecionado e ingredientes frescos.
+        Do fogo direto pra sua mesa — ou pra sua casa.
+      </p>
+      <div class="hero-actions" data-reveal>
+        <a class="btn btn-primary" href="https://wa.me/5511972974843?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20fazer%20um%20pedido%20%F0%9F%8D%94" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.5 5.3L2 22l4.8-1.5c1.5.8 3.3 1.3 5.2 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.7 0-3.3-.5-4.7-1.3l-.3-.2-3.2 1 1-3.1-.2-.3C3.8 15 3.3 13.5 3.3 12c0-4.8 3.9-8.7 8.7-8.7s8.7 3.9 8.7 8.7-3.9 8.7-8.7 8.7zm4.8-6.5c-.3-.1-1.6-.8-1.8-.9-.2-.1-.4-.1-.6.1-.2.3-.7.9-.8 1-.1.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.1-.3 0-.4.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.4.1-.2 0-.4 0-.5C10 8.8 9.5 7.5 9.3 7c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-1 1-1 2.3 0 1.4 1 2.7 1.1 2.9.1.2 2 3 4.8 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.6-.7 1.9-1.3.2-.6.2-1.1.2-1.3-.1-.1-.3-.2-.6-.3z"/></svg>
+          Pedir no WhatsApp
+        </a>
+        <a class="btn btn-ghost" href="#cardapio">Ver cardápio</a>
+      </div>
+    </div>
+
+    <div class="hero-marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>100% ARTESANAL</span><span>★</span>
+        <span>PÃO BRIOCHE</span><span>★</span>
+        <span>5.0 NO GOOGLE</span><span>★</span>
+        <span>ENTREGA WHATSAPP &amp; IFOOD</span><span>★</span>
+        <span>TERÇA A DOMINGO</span><span>★</span>
+        <span>100% ARTESANAL</span><span>★</span>
+        <span>PÃO BRIOCHE</span><span>★</span>
+        <span>5.0 NO GOOGLE</span><span>★</span>
+        <span>ENTREGA WHATSAPP &amp; IFOOD</span><span>★</span>
+        <span>TERÇA A DOMINGO</span><span>★</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="sobre">
+    <div class="about-media" data-parallax>
+      <img src="assets/menu/about-bg-buns.jpg" alt="Pão brioche artesanal Vik Burguer" loading="lazy">
+      <div class="about-media-frame"></div>
+    </div>
+    <div class="about-content">
+      <span class="eyebrow" data-reveal>Nossa história</span>
+      <h2 data-reveal>Hambúrguer artesanal <em>de verdade</em>, feito com paixão</h2>
+      <p data-reveal>
+        A Vik Burguer nasceu da vontade de servir um lanche que impressiona: carne selecionada,
+        pão brioche macio e ingredientes frescos montados na hora. Cada receita foi pensada
+        para equilibrar sabor, suculência e aquele toque artesanal que faz toda diferença.
+      </p>
+      <p data-reveal>
+        Ambiente acolhedor, atendimento de perto e receitas que vão do clássico ao ousado —
+        do Vik Cheese ao Vik Tudo. Premium sem perder a essência de boteco de bairro.
+      </p>
+
+      <div class="stats" data-reveal>
+        <div class="stat">
+          <span class="stat-number" data-count="5.0">0</span>
+          <span class="stat-label">Avaliação Google</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-count="30">0</span>
+          <span class="stat-suffix">+</span>
+          <span class="stat-label">Itens no cardápio</span>
+        </div>
+        <div class="stat">
+          <span class="stat-prefix">R$</span>
+          <span class="stat-number" data-count="40">0</span>
+          <span class="stat-suffix">–60</span>
+          <span class="stat-label">Ticket médio</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="menu-section" id="cardapio">
+    <div class="section-head">
+      <span class="eyebrow" data-reveal>Cardápio</span>
+      <h2 data-reveal>Escolha seu próximo <em>favorito</em></h2>
+    </div>
+
+    <div class="menu-tabs" role="tablist" aria-label="Categorias do cardápio" data-reveal>
+      <button class="menu-tab is-active" role="tab" aria-selected="true" data-cat="lanches-individuais">Lanches Individuais</button>
+      <button class="menu-tab" role="tab" aria-selected="false" data-cat="lanches-especiais">Lanches Especiais</button>
+      <button class="menu-tab" role="tab" aria-selected="false" data-cat="batatas">Batatas &amp; Porções</button>
+      <button class="menu-tab" role="tab" aria-selected="false" data-cat="pizzas-crepes">Mini Pizzas &amp; Crepes</button>
+      <button class="menu-tab" role="tab" aria-selected="false" data-cat="bebidas">Bebidas &amp; Sobremesa</button>
+    </div>
+
+    <div class="menu-panels">
+
+      <div class="menu-grid is-active" data-panel="lanches-individuais">
+        <article class="menu-card">
+          <div class="menu-card-img"><img src="assets/menu/vik-kids.jpg" alt="Vik Kids" loading="lazy"></div>
+          <div class="menu-card-body">
+            <div class="menu-card-top"><h3>Vik Kids</h3><span class="price">R$ 15,00</span></div>
+            <p>Hambúrguer 60g, queijo prato, ketchup, mostarda e maionese.</p>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-img"><img src="assets/menu/vik-cheese.jpg" alt="Vik Cheese Burguer" loading="lazy"></div>
+          <div class="menu-card-body">
+            <div class="menu-card-top"><h3>Vik Cheese Burguer</h3><span class="price">R$ 20,00</span></div>
+            <p>Hambúrguer artesanal 100g, queijo prato, ketchup, mostarda e maionese.</p>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-img"><img src="assets/menu/vik-junior.jpg" alt="Vik Junior" loading="lazy"></div>
+          <div class="menu-card-body">
+            <div class="menu-card-top"><h3>Vik Junior</h3><span class="price">R$ 27,00</span></div>
+            <p>Hambúrguer artesanal 100g, queijo prato, tomate, alface, ketchup, mostarda e maionese.</p>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-img"><img src="assets/menu/vik-salada.jpg" alt="Vik Salada" loading="lazy"></div>
+          <div class="menu-card-body">
+            <div class="menu-card-top"><h3>Vik Salada</h3><span class="price">R$ 30,00</span></div>
+            <p>Hambúrguer artesanal 100g, cheddar, queijo prato, tomate, alface, cebola roxa, picles e molho verde.</p>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-img"><img src="assets/menu/vik-egg.jpg" alt="Vik Egg" loading="lazy"></div>
+          <div class="menu-card-body">
+            <div class="menu-card-top"><h3>Vik Egg</h3><span class="price">R$ 35,00</span></div>
+            <p>Hambúrguer artesanal 140g, ovo, queijo prato e cheddar, tomate, alface, cebola roxa, picles e molho verde.</p>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-img"><img src="assets/menu/vik-calabresa.jpg" alt="Vik Calabresa" loading="lazy"></div>
+          <div class="menu-card-body">
+            <div class="menu-card-top"><h3>Vik Calabresa</h3><span class="price">R$ 35,00</span></div>
+            <p>Hambúrguer artesanal 140g, calabresa, queijo prato e cheddar, tomate, alface, cebola roxa, picles e molho verde.</p>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-img"><img src="assets/menu/vik-doritos.jpg" alt="Vik Doritos" loading="lazy"></div>
+          <div class="menu-card-body">
+            <div class="menu-card-top"><h3>Vik Doritos</h3><span class="price">R$ 37,00</span></div>
+            <p>Hambúrguer artesanal 140g, bacon, cheddar e prato, picles, molho verde e crocante de Doritos.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="menu-grid" data-panel="lanches-especiais">
+        <article class="menu-card">
+          <div class="menu-card-img"><img src="assets/menu/vik-bacon.jpg" alt="Vik Bacon" loading="lazy"></div>
+          <div class="menu-card-body">
+            <div class="menu-card-top"><h3>Vik Bacon</h3><span class="price">R$ 37,00</span></div>
+            <p>Hambúrguer artesanal 140g, bacon, queijo prato e cheddar, tomate, alface, cebola roxa e picles.</p>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-img"><img src="assets/menu/vik-onion.jpg" alt="Vik Onion" loading="lazy"></div>
+          <div class="menu-card-body">
+            <div class="menu-card-top"><h3>Vik Onion</h3><span class="price">R$ 37,00</span></div>
+            <p>Hambúrguer artesanal 140g, queijo prato e cheddar, molho verde e cebola onion crocante.</p>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-img"><img src="assets/menu/vik-duplo.jpg" alt="Vik Duplo" loading="lazy"></div>
+          <div class="menu-card-body">
+            <div class="menu-card-top"><h3>Vik Duplo</h3><span class="price">R$ 38,00</span></div>
+            <p>2 hambúrgueres artesanais 100g, bacon, cheddar e prato, picles, molho verde e cebola roxa.</p>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-img"><img src="assets/menu/vik-costela.jpg" alt="Vik Costela" loading="lazy"></div>
+          <div class="menu-card-body">
+            <div class="menu-card-top"><h3>Vik Costela</h3><span class="price">R$ 38,00</span></div>
+            <p>Hambúrguer artesanal 140g, costela desfiada, queijo prato, cebola roxa, picles e molho verde.</p>
+          </div>
+        </article>
+        <article class="menu-card menu-card-feature">
+          <span class="badge">Mais pedido</span>
+          <div class="menu-card-img"><img src="assets/menu/vik-tudo.jpg" alt="Vik Tudo" loading="lazy"></div>
+          <div class="menu-card-body">
+            <div class="menu-card-top"><h3>Vik Tudo</h3><span class="price">R$ 45,00</span></div>
+            <p>Hambúrguer artesanal 140g, bacon, ovo, calabresa, prato e cheddar, cebola onion, tomate e alface.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="menu-grid" data-panel="batatas">
+        <article class="menu-card">
+          <div class="menu-card-img"><img src="assets/menu/batata-simples.png" alt="Batata Simples" loading="lazy"></div>
+          <div class="menu-card-body">
+            <div class="menu-card-top"><h3>Batata Simples</h3><span class="price">R$ 10,00</span></div>
+            <p>Ketchup, mostarda e maionese.</p>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-img"><img src="assets/menu/batata-rustica.jpg" alt="Batata Rústica Simples" loading="lazy"></div>
+          <div class="menu-card-body">
+            <div class="menu-card-top"><h3>Batata Rústica Simples</h3><span class="price">R$ 12,00</span></div>
+            <p>Corte rústico com casca, temperada na hora.</p>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-img"><img src="assets/menu/cebola-onion.jpg" alt="Cebola Onion" loading="lazy"></div>
+          <div class="menu-card-body">
+            <div class="menu-card-top"><h3>Cebola Onion</h3><span class="price">R$ 15,00</span></div>
+            <p>Anéis de cebola empanados, crocantes por fora.</p>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-img"><img src="assets/menu/batata-completa.jpg" alt="Batata Completa" loading="lazy"></div>
+          <div class="menu-card-body">
+            <div class="menu-card-top"><h3>Batata Completa</h3><span class="price">R$ 17,00</span></div>
+            <p>Sal, ketchup, mostarda, maionese, calabresa, parmesão, cheddar, mussarela e bacon.</p>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-img"><img src="assets/menu/batata-rustica.jpg" alt="Batata Rústica Completa" loading="lazy"></div>
+          <div class="menu-card-body">
+            <div class="menu-card-top"><h3>Batata Rústica Completa</h3><span class="price">R$ 19,00</span></div>
+            <p>Corte rústico com todo o recheio da completa.</p>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-img"><img src="assets/menu/batata-recheada.jpg" alt="Batata Recheada Simples" loading="lazy"></div>
+          <div class="menu-card-body">
+            <div class="menu-card-top"><h3>Batata Recheada Simples</h3><span class="price">R$ 20,00</span></div>
+            <p>Escolha: queijo e bacon, calabresa, ou calabresa com bacon.</p>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-img"><img src="assets/menu/batata-recheada.jpg" alt="Batata Recheada Completa" loading="lazy"></div>
+          <div class="menu-card-body">
+            <div class="menu-card-top"><h3>Batata Recheada Completa</h3><span class="price">R$ 27,00</span></div>
+            <p>Mussarela, calabresa, bacon, orégano, parmesão e cheddar.</p>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-img"><img src="assets/menu/isca-frango.jpg" alt="Isca de Frango" loading="lazy"></div>
+          <div class="menu-card-body">
+            <div class="menu-card-top"><h3>Isca de Frango</h3><span class="price">R$ 27,00</span></div>
+            <p>Tiras crocantes de frango empanado.</p>
+          </div>
+        </article>
+        <article class="menu-card menu-card-feature">
+          <span class="badge">Pra compartilhar</span>
+          <div class="menu-card-img"><img src="assets/menu/batata-familia.jpg" alt="Batata Mega Família" loading="lazy"></div>
+          <div class="menu-card-body">
+            <div class="menu-card-top"><h3>Batata Mega Família</h3><span class="price">R$ 30,00</span></div>
+            <p>Porção generosa com todos os ingredientes da completa.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="menu-grid" data-panel="pizzas-crepes">
+        <article class="menu-card">
+          <div class="menu-card-img"><img src="assets/menu/mini-pizza-salgada.jpg" alt="Mini Pizza Salgada" loading="lazy"></div>
+          <div class="menu-card-body">
+            <div class="menu-card-top"><h3>Mini Pizza Salgada</h3><span class="price">R$ 10,00</span></div>
+            <p>Queijo e bacon, calabresa, queijo, ou calabresa com queijo.</p>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-img"><img src="assets/menu/mini-pizza-doce.jpg" alt="Mini Pizza Doce" loading="lazy"></div>
+          <div class="menu-card-body">
+            <div class="menu-card-top"><h3>Mini Pizza Doce</h3><span class="price">R$ 14,00</span></div>
+            <p>Chocolate com M&amp;M's, ou chocolate com morango.</p>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-img"><img src="assets/menu/mini-pizza-doce.jpg" alt="Mini Pizza Doce Premium" loading="lazy"></div>
+          <div class="menu-card-body">
+            <div class="menu-card-top"><h3>Mini Pizza Doce Premium</h3><span class="price">R$ 15,00</span></div>
+            <p>Nutella com M&amp;M's, morango ou Kit Kat.</p>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-img"><img src="assets/menu/crepe-tradicional.jpg" alt="Crepe Tradicional" loading="lazy"></div>
+          <div class="menu-card-body">
+            <div class="menu-card-top"><h3>Crepe Tradicional</h3><span class="price">R$ 9,00</span></div>
+            <p>Queijo, chocolate ou doce de leite.</p>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-img"><img src="assets/menu/crepe-salgado.jpg" alt="Crepe Salgado" loading="lazy"></div>
+          <div class="menu-card-body">
+            <div class="menu-card-top"><h3>Crepe Salgado</h3><span class="price">R$ 10,00</span></div>
+            <p>Queijo, bacon e cheddar.</p>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-img"><img src="assets/menu/crepe-especial.jpg" alt="Crepe Especial" loading="lazy"></div>
+          <div class="menu-card-body">
+            <div class="menu-card-top"><h3>Crepe Especial</h3><span class="price">R$ 15,00</span></div>
+            <p>Recheado com Nutella.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="menu-grid" data-panel="bebidas">
+        <article class="menu-card">
+          <div class="menu-card-img"><img src="assets/menu/bebida-lata.jpg" alt="Refrigerante Lata" loading="lazy"></div>
+          <div class="menu-card-body">
+            <div class="menu-card-top"><h3>Refrigerante Lata 350ml</h3><span class="price">R$ 6–7</span></div>
+            <p>Coca-Cola, Guaraná, Fanta e outros sabores.</p>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-img"><img src="assets/menu/cerveja.jpg" alt="Cerveja" loading="lazy"></div>
+          <div class="menu-card-body">
+            <div class="menu-card-top"><h3>Cerveja Lata / Long Neck</h3><span class="price">R$ 6–11</span></div>
+            <p>Original, Heineken, Budweiser, Skol e mais.</p>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-img"><img src="assets/menu/suco-natural.jpg" alt="Suco Natural" loading="lazy"></div>
+          <div class="menu-card-body">
+            <div class="menu-card-top"><h3>Suco Natural</h3><span class="price">R$ 10–12</span></div>
+            <p>Feito na água ou no leite, escolha a fruta.</p>
+          </div>
+        </article>
+        <article class="menu-card">
+          <div class="menu-card-img"><img src="assets/menu/chopp.jpg" alt="Chopp Draft" loading="lazy"></div>
+          <div class="menu-card-body">
+            <div class="menu-card-top"><h3>Chopp Draft</h3><span class="price">R$ 16,00</span></div>
+            <p>Servido geladinho, direto na torneira.</p>
+          </div>
+        </article>
+        <article class="menu-card menu-card-feature">
+          <span class="badge">Sobremesa</span>
+          <div class="menu-card-img"><img src="assets/menu/petit-gateau.jpg" alt="Petit Gateau" loading="lazy"></div>
+          <div class="menu-card-body">
+            <div class="menu-card-top"><h3>Petit Gateau</h3><span class="price">R$ 20,00</span></div>
+            <p>Bolo de chocolate belga com sorvete de creme.</p>
+          </div>
+        </article>
+      </div>
+
+    </div>
+
+    <div class="menu-more" data-reveal>
+      <h4>Mais opções no balcão</h4>
+      <ul class="more-list">
+        <li><span>Água / Suco de Caixinha</span><b>R$ 3,50</b></li>
+        <li><span>Doses (51, Velho Barreiro)</span><b>R$ 4,00</b></li>
+        <li><span>Refrigerante 2L</span><b>R$ 11–15</b></li>
+        <li><span>Soda Italiana</span><b>R$ 10–12</b></li>
+        <li><span>Energético (Red Bull, Monster)</span><b>R$ 11–12</b></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="showcase" id="destaques">
+    <div class="showcase-head">
+      <span class="eyebrow" data-reveal>Os mais pedidos</span>
+      <h2 data-reveal>Destaques da casa</h2>
+    </div>
+    <div class="showcase-track-wrap">
+      <div class="showcase-track">
+        <div class="showcase-slide">
+          <img src="assets/menu/vik-tudo.jpg" alt="Vik Tudo" loading="lazy">
+          <div class="showcase-info"><h3>Vik Tudo</h3><p>O lanche completo: bacon, ovo, calabresa e queijos.</p></div>
+        </div>
+        <div class="showcase-slide">
+          <img src="assets/menu/vik-bacon.jpg" alt="Vik Bacon" loading="lazy">
+          <div class="showcase-info"><h3>Vik Bacon</h3><p>Clássico defumado com queijo derretido na medida.</p></div>
+        </div>
+        <div class="showcase-slide">
+          <img src="assets/menu/vik-onion.jpg" alt="Vik Onion" loading="lazy">
+          <div class="showcase-info"><h3>Vik Onion</h3><p>Crocância da cebola onion em cada mordida.</p></div>
+        </div>
+        <div class="showcase-slide">
+          <img src="assets/menu/vik-duplo.jpg" alt="Vik Duplo" loading="lazy">
+          <div class="showcase-info"><h3>Vik Duplo</h3><p>Duas carnes, o dobro de sabor.</p></div>
+        </div>
+        <div class="showcase-slide">
+          <img src="assets/menu/vik-costela.jpg" alt="Vik Costela" loading="lazy">
+          <div class="showcase-info"><h3>Vik Costela</h3><p>Costela desfiada lentamente, puro conforto.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="rating">
+    <div class="rating-inner">
+      <div class="rating-stars" aria-hidden="true">★★★★★</div>
+      <p class="rating-score" data-reveal>5.0 <span>de avaliação no Google</span></p>
+      <a class="btn btn-outline" data-reveal href="https://www.google.com/maps/search/?api=1&query=Vik+Burguer+Cotia" target="_blank" rel="noopener">Ver avaliações no Google</a>
+    </div>
+  </section>
+
+  <section class="delivery" id="contato">
+    <div class="section-head">
+      <span class="eyebrow" data-reveal>Peça já</span>
+      <h2 data-reveal>Como você prefere pedir?</h2>
+    </div>
+    <div class="delivery-cards">
+      <a class="delivery-card" data-reveal href="https://wa.me/5511972974843?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20fazer%20um%20pedido%20%F0%9F%8D%94" target="_blank" rel="noopener">
+        <div class="delivery-icon whatsapp">
+          <svg viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path fill="currentColor" d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.5 5.3L2 22l4.8-1.5c1.5.8 3.3 1.3 5.2 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.7 0-3.3-.5-4.7-1.3l-.3-.2-3.2 1 1-3.1-.2-.3C3.8 15 3.3 13.5 3.3 12c0-4.8 3.9-8.7 8.7-8.7s8.7 3.9 8.7 8.7-3.9 8.7-8.7 8.7zm4.8-6.5c-.3-.1-1.6-.8-1.8-.9-.2-.1-.4-.1-.6.1-.2.3-.7.9-.8 1-.1.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.1-.3 0-.4.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.4.1-.2 0-.4 0-.5C10 8.8 9.5 7.5 9.3 7c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-1 1-1 2.3 0 1.4 1 2.7 1.1 2.9.1.2 2 3 4.8 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.6-.7 1.9-1.3.2-.6.2-1.1.2-1.3-.1-.1-.3-.2-.6-.3z"/></svg>
+        </div>
+        <h3>WhatsApp</h3>
+        <p>Fale direto com a gente e monte seu pedido sob medida.</p>
+        <span class="delivery-link">(11) 97297-4843 →</span>
+      </a>
+      <a class="delivery-card" data-reveal href="https://www.ifood.com.br/" target="_blank" rel="noopener">
+        <div class="delivery-icon ifood">
+          <svg viewBox="0 0 24 24" width="34" height="34" aria-hidden="true"><path fill="currentColor" d="M12 2 2 8v2h20V8L12 2zm-8 9v9h4v-7h8v7h4v-9H4z"/></svg>
+        </div>
+        <h3>iFood</h3>
+        <p>Peça pelo app com toda praticidade do delivery.</p>
+        <span class="delivery-link">Abrir iFood →</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="location" id="localizacao">
+    <div class="location-info">
+      <span class="eyebrow" data-reveal>Onde estamos</span>
+      <h2 data-reveal>Venha nos visitar</h2>
+      <ul class="info-list" data-reveal>
+        <li>
+          <strong>Endereço</strong>
+          <span>R. Nelson Raineri, 130 — Lageado, Cotia - SP, 06702-155</span>
+        </li>
+        <li>
+          <strong>Horário</strong>
+          <span>Terça a Domingo, das 15h às 23h (fechado às segundas)</span>
+        </li>
+        <li>
+          <strong>Contato</strong>
+          <span>(11) 97297-4843</span>
+        </li>
+        <li>
+          <strong>Instagram</strong>
+          <span><a href="https://instagram.com/vikburgguer" target="_blank" rel="noopener">@vikburgguer</a></span>
+        </li>
+      </ul>
+      <a class="btn btn-primary" data-reveal href="https://www.google.com/maps/dir/?api=1&destination=R.%20Nelson%20Raineri%2C%20130%20-%20Lageado%2C%20Cotia%20-%20SP%2C%2006702-155" target="_blank" rel="noopener">Como chegar</a>
+    </div>
+    <div class="location-map">
+      <iframe
+        title="Mapa Vik Burguer"
+        src="https://www.google.com/maps?q=R.+Nelson+Raineri,+130+-+Lageado,+Cotia+-+SP,+06702-155&output=embed"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-top">
+    <div class="footer-brand">
+      <img src="assets/logo.png" alt="Vik Burguer" width="70" height="63">
+      <p>Especialista em Hambúrguer</p>
+    </div>
+    <nav class="footer-links" aria-label="Links do rodapé">
+      <a href="#sobre">Sobre</a>
+      <a href="#cardapio">Cardápio</a>
+      <a href="#destaques">Destaques</a>
+      <a href="#localizacao">Localização</a>
+    </nav>
+    <div class="footer-social">
+      <a href="https://wa.me/5511972974843" target="_blank" rel="noopener" aria-label="WhatsApp">WhatsApp</a>
+      <a href="https://instagram.com/vikburgguer" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© <span id="year"></span> Vik Burguer. Todos os direitos reservados.</p>
+    <p>R. Nelson Raineri, 130 — Lageado, Cotia - SP</p>
+  </div>
+</footer>
+
+<a class="whatsapp-float" href="https://wa.me/5511972974843?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20fazer%20um%20pedido%20%F0%9F%8D%94" target="_blank" rel="noopener" aria-label="Chamar no WhatsApp">
+  <span class="pulse"></span>
+  <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><path fill="currentColor" d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.5 5.3L2 22l4.8-1.5c1.5.8 3.3 1.3 5.2 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.7 0-3.3-.5-4.7-1.3l-.3-.2-3.2 1 1-3.1-.2-.3C3.8 15 3.3 13.5 3.3 12c0-4.8 3.9-8.7 8.7-8.7s8.7 3.9 8.7 8.7-3.9 8.7-8.7 8.7zm4.8-6.5c-.3-.1-1.6-.8-1.8-.9-.2-.1-.4-.1-.6.1-.2.3-.7.9-.8 1-.1.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.1-.3 0-.4.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.4.1-.2 0-.4 0-.5C10 8.8 9.5 7.5 9.3 7c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-1 1-1 2.3 0 1.4 1 2.7 1.1 2.9.1.2 2 3 4.8 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.6-.7 1.9-1.3.2-.6.2-1.1.2-1.3-.1-.1-.3-.2-.6-.3z"/></svg>
+</a>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+<script src="js/main.js" defer></script>
+</body>
+</html>
