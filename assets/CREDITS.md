@@ -38,7 +38,7 @@ Consulte o link de cada uma antes de qualquer uso comercial contínuo.
 | crepe-salgado.jpg | https://commons.wikimedia.org/wiki/File:Ham_%26_Cheese_Galettes_4of4_(8735173771).jpg |
 | crepe-especial.jpg | https://commons.wikimedia.org/wiki/File:Cr%C3%AApes_con_la_Nutella.JPG |
 | bebida-lata.jpg | https://commons.wikimedia.org/wiki/File:Coca-cola_50cl_can_-_Italia.jpg |
-| cerveja.jpg | https://commons.wikimedia.org/wiki/File:A_Bottle_of_Sapporo_Beer.jpg |
+| cerveja.jpg | https://commons.wikimedia.org/wiki/File:DFC_5008_Chilled_Singha_beer_on_the_bar_lights_twinkling_in_the_background_-_a_taste_of_Sattahip_nights.jpg |
 | chopp.jpg | https://commons.wikimedia.org/wiki/File:Rinkuskiai_Proginis_(10140880343).jpg |
 | petit-gateau.jpg | https://commons.wikimedia.org/wiki/File:Chocolate_lava_cake.jpg |
 | suco-natural.jpg | https://commons.wikimedia.org/wiki/File:A_glass_of_orange_juice_(2014-12-23).JPG |
