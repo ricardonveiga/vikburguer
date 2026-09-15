@@ -50,3 +50,10 @@ HTML5 + CSS3 (custom properties, grid/flex) + JavaScript vanilla, com:
 - **Lenis** — smooth scroll.
 
 Sem framework, sem build step, sem dependências de PWA/service worker (removido a pedido do cliente).
+
+## Preview de link (WhatsApp, Instagram, etc.)
+
+As tags `og:image`/`og:url` em `index.html` apontam para `https://vikburguer.vercel.app` com a
+imagem `assets/og-image.jpg` (a logo em fundo escuro, gerada a partir de `assets/logo.png`). Se o
+domínio final mudar, atualize essas duas tags no `<head>` — precisam ser URL absoluta pra
+funcionar no preview do WhatsApp.
