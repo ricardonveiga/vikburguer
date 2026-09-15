@@ -642,32 +642,48 @@ button { font: inherit; cursor: pointer; }
   .menu-tabs { justify-content: flex-start; overflow-x: auto; flex-wrap: nowrap; padding-bottom: 4px; padding-right: 40px; -ms-overflow-style: none; scrollbar-width: none; scroll-snap-type: x proximity; }
   .menu-tabs::-webkit-scrollbar { display: none; }
   .menu-tab { flex-shrink: 0; scroll-snap-align: start; }
+
+  .menu-tabs-wrap::before,
   .menu-tabs-wrap::after {
     content: '';
     position: absolute;
     z-index: 1;
-    top: 0; right: 0; bottom: 4px;
+    top: 0; bottom: 4px;
     width: 48px;
-    background: linear-gradient(90deg, transparent, var(--dark) 75%);
     pointer-events: none;
+    opacity: 0;
+    transition: opacity .3s;
   }
+  .menu-tabs-wrap::before { left: 0; background: linear-gradient(270deg, transparent, var(--dark) 75%); }
+  .menu-tabs-wrap::after { right: 0; background: linear-gradient(90deg, transparent, var(--dark) 75%); }
+  .menu-tabs-wrap.can-scroll-left::before { opacity: 1; }
+  .menu-tabs-wrap.can-scroll-right::after { opacity: 1; }
+
   .menu-tabs-hint {
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
     z-index: 2;
-    right: 2px;
     top: 0;
     bottom: 4px;
     width: 22px;
     color: var(--mustard);
     pointer-events: none;
-    animation: tabsHintNudge 1.8s ease-in-out infinite;
+    opacity: 0;
+    transition: opacity .3s;
   }
+  .menu-tabs-hint.left { left: 2px; }
+  .menu-tabs-hint.right { right: 2px; }
+  .menu-tabs-wrap.can-scroll-left .menu-tabs-hint.left { opacity: 1; animation: tabsHintNudgeLeft 1.8s ease-in-out infinite; }
+  .menu-tabs-wrap.can-scroll-right .menu-tabs-hint.right { opacity: 1; animation: tabsHintNudge 1.8s ease-in-out infinite; }
   @keyframes tabsHintNudge {
     0%, 100% { transform: translateX(0); opacity: .9; }
     50% { transform: translateX(4px); opacity: .4; }
+  }
+  @keyframes tabsHintNudgeLeft {
+    0%, 100% { transform: translateX(0); opacity: .9; }
+    50% { transform: translateX(-4px); opacity: .4; }
   }
   .whatsapp-float { right: 16px; bottom: 16px; width: 54px; height: 54px; }
   .footer-top { flex-direction: column; align-items: center; text-align: center; }

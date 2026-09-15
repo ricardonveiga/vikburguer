@@ -66,6 +66,17 @@
 
   /* ---------------- menu tabs overflow hint (mobile) ---------------- */
   var menuTabsEl = document.querySelector('.menu-tabs');
+  var menuTabsWrapEl = document.querySelector('.menu-tabs-wrap');
+  if (menuTabsEl && menuTabsWrapEl) {
+    var updateTabsScrollState = function () {
+      var maxScroll = menuTabsEl.scrollWidth - menuTabsEl.clientWidth;
+      menuTabsWrapEl.classList.toggle('can-scroll-left', menuTabsEl.scrollLeft > 8);
+      menuTabsWrapEl.classList.toggle('can-scroll-right', menuTabsEl.scrollLeft < maxScroll - 8);
+    };
+    menuTabsEl.addEventListener('scroll', updateTabsScrollState, { passive: true });
+    window.addEventListener('resize', updateTabsScrollState);
+    updateTabsScrollState();
+  }
   if (menuTabsEl && !reduceMotion) {
     var nudged = false;
     var maybeNudge = function () {
